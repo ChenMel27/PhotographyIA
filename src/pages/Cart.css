@@ -1,0 +1,71 @@
+
+/* Cart Page Design */
+.blink {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0.2;
+    }
+  }
+
+  html {
+    box-sizing:border-box;
+    }
+
+  /* Splitting Div Background Color */
+  .divback {
+    background: linear-gradient(
+    to right,
+    rgb(35, 35, 35) 0%,
+    rgb(35, 35, 35) 40%,
+    rgb(188, 196, 180) 40%,
+    rgb(188, 196, 180) 100%
+  );
+
+    position: relative;
+    width: 2500px;
+    margin-left: -200px;
+    margin-right: -200px;
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-bottom: 200px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-top: 15px;
+  }
+
+  /* !important overrides parent formatting */ 
+  .Summary {
+    margin-left: -780px !important;
+    margin-right: 0px !important;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 50px !important;
+    font-weight: 100;
+    border: 2px;
+    margin-top: 0px !important;
+  }
+
+  #Button1 {
+    margin-right: -390px;
+    margin-top: 480px;
+    z-index: 5;
+  }
+
+  .Items  {
+    margin-top: -450px;
+    margin-left: -380px !important;
+    padding-right: 200px !important;
+  }
+
+  .Elements {
+    margin-top: -500px !important;
+    margin-right: -410px !important;
+    font-size: 20px !important;
+    padding: 80px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: white;
+  }

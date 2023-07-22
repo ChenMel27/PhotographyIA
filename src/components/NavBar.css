@@ -1,0 +1,83 @@
+.MYC {
+    text-decoration: none; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 73.25px;
+    margin-left: -170px;
+    margin-top: -55px;
+    font-style: bold;
+    z-index: 2;
+    position: fixed;
+    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255); /* Black background color */
+    
+}
+
+.Port {
+    margin-left:165px;
+    margin-top: -100px;
+    font-family: cursive;
+    font-size: 25px;
+    position: fixed;
+    padding-top: 100px;
+    padding-bottom: 17.5px;
+    padding-right: 230px;
+    z-index: 2;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255); /* Black background color */
+}
+
+#SHOP {
+    margin-top: -100px;
+    margin-left: 0px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 31px;
+    padding-right: 500px;
+    position: fixed;
+    z-index: 3;
+    background-color: rgb(255, 255, 255); 
+}
+#HOME {
+    margin-top: -100px;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-left: 180px;
+    position: fixed;
+    padding-top: 100px;
+    z-index: 2;
+    padding-bottom: 31px;
+    background-color: rgb(255, 255, 255); 
+}
+#ABOUT {
+    margin-top: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+    position: fixed;
+    padding-top: 100px;
+    padding-bottom: 31px;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+.CART {
+    background-color: rgb(255, 255, 255); 
+    margin-left: 50px;
+    margin-top: 15px;
+    z-index: 10;
+}
+.Cart {
+    position: fixed;
+    background-color: white;
+    
+}
+
+#DESIGN {
+    margin-top: 100px;
+}
+
+.Number {
+    margin-right: 268px;
+    margin-top: 34px;
+    position: fixed !important;
+}

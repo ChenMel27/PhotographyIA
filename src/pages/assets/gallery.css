@@ -1,0 +1,188 @@
+body {
+  background-color:white; 
+  font-family: "Times New Roman", Times, serif;
+ }
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a {
+  
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #777;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+li {
+  text-align: center;
+  margin-left: 100px;
+  display: inline;
+  text-size-adjust: 10;
+}
+.center-text {
+  text-align: center;
+}
+
+a.center-text {
+  display: block;
+}
+
+
+#a {
+ 
+  font-size: 80px;
+  position: sticky;
+}
+
+
+
+
+
+.gallery-container {
+  top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails {
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.thumbnails div {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background: #aaa;
+  border-radius: 100%;
+}
+
+.thumbnails div.highlighted {
+  background-color: #777;
+}
+
+.slides {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  width: 540px;
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.slides img {
+  width: 540px;
+  object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+  
+  .container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 50px;
+    height: 640px; 
+    margin-left: 12px;
+    width: 1400px;
+  }
+  
+  .container img {
+    margin-right: 15px;
+  }
+  .ftext {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+  }
+  #portrait {
+    width: 500px;
+    height: 500px;
+    z-index: 200;
+    border-radius: 50%;
+    background: #5e8763;
+    padding: 5px;
+    margin-left: 450px;
+    margin-top: -1645px;
+    display: block;
+  }
+
+  #portrait border {
+    z-index: 100px;
+  }
+  .aboutme {
+    text-align: center;
+    margin-left: 470px;
+    margin-right: 500px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 30px;
+  }
+  #name {
+    color:  #5e8763;
+    text-align: center;
+    margin-left: 470px;
+    margin-right: 500px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-style: italic;
+  }
+
+  #banner {
+    margin-top: 800px;
+  }
+
+  .blink {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0.2;
+    }
+  }
+
+  .back {
+    background-color: #DBF9FC;
+    margin-top: 20px;
+  }
